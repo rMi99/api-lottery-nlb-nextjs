@@ -45,3 +45,4 @@ export default async (req, res) => {
         await browser.close();
     }
 };
+// npx puppeteer browsers install chrome
