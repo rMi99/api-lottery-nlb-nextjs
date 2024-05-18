@@ -2,7 +2,7 @@
 import puppeteer from 'puppeteer';
 import cheerio from 'cheerio';
 
-export default async (req, res) => {
+export default async function GET(req, res){
     const { date, drawNo, slug } = req.query;
 
     if (!date || !drawNo || !slug) {
